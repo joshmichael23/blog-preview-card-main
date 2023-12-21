@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+*{
+    font-family: "Figtree";
+    font-size: 16px;
+    margin:0px;
+}
+
+img, svg{
+    max-width: 100%;
+    height:auto;
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+}
+
+main{
+    position: relative;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card{
+    background-color: white;
+    padding: 1.5em;
+    border: 1px solid black;
+    border-radius: 1em;
+    display: grid;
+    width: 350px;
+    gap: 1em;
+    box-shadow: 1rem 1rem 0px;
+}
+
+span{
+    background-color: hsl(47, 88%, 63%);
+    width: max-content;
+    padding: .3rem .6rem;
+    font-weight: 800;
+    border-radius: .5rem;
+    font-size: .8rem;
+}
+
+h1{
+    font-size: 1.5rem;
+}
+
+
+p{
+    font-size: .9rem;
+}
+.description{
+    color: hsl(0, 0%, 50%);
+}
+
+.user{
+    margin-top: .5rem;
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    gap: .5em;
+    
+    
+}
+    .user > img{
+        width: 30px;
+    }
+
+    .user > p {
+        font-size: .9rem;
+        font-weight: 800;
+    }
